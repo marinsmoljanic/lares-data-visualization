@@ -10,7 +10,6 @@ const Layout = () => {
         <Link to="/chartjs" className="hover:bg-gray-700 h-10 flex px-2 items-center">Chart.js</Link>
         <Link to="/dygraph" className="hover:bg-gray-700 h-10 flex px-2 items-center">DyGraph.js</Link>
       </div>
-
       <Outlet />
     </>
   )
